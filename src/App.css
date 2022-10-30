@@ -1,0 +1,44 @@
+body {
+  padding: 20px;
+  min-height: 100vh;
+  background: #fefcea;
+  background: -moz-linear-gradient(-45deg,  #fefcea 0%, #f1da36 100%);
+  background: -webkit-linear-gradient(-45deg,  #fefcea 0%,#f1da36 100%);
+  background: linear-gradient(135deg,  #fefcea 0%,#f1da36 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', endColorstr='#f1da36',GradientType=1 );
+}
+
+footer {
+  position: fixed;
+  background-color: #ccc;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 8px;
+  text-align: right;
+  font-size: small;
+}
+
+.header .lead {
+  max-width: 620px;
+}
+
+.gallery-item {
+  width: 200px;
+  padding: 15px;
+}
+
+.thumb {
+  width: 150px;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+.App {
+  font-family: sans-serif;
+  min-height: 100vh;
+}
+
+.google-font {
+  font-family: 'Special Elite', cursive;
+}
