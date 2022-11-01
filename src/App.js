@@ -1,5 +1,6 @@
 import LightGallery from "lightgallery/react";
 import ImagesComponent from "./components/ImagesComponent";
+import Background from "./Background"
 import Footer from "./Footer";
 import "lightgallery/css/lightgallery-bundle.css";
 import "./App.css";
@@ -16,7 +17,7 @@ function Gallery() {
   };
   return (
     <div className="Gallery">
-    <h1 className="google-font">Children's Summer Camp 'Aurora'</h1>
+      <h1 className="font-face-ps">Children's Summer Camp 'Aurora'</h1>
       <LightGallery
         onInit={onInit}
         speed={500}
@@ -25,6 +26,7 @@ function Gallery() {
         <ImagesComponent />
       </LightGallery>
       <Footer />
+      <Background />
     </div>
   );
 }

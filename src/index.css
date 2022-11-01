@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+font-family: 'PoorStory';
+src: local('PoorStory'),
+ url('./fonts/PoorStory-Regular.ttf') format('truetype');
+font-weight: cursive;
+}

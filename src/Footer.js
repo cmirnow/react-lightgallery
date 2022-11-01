@@ -1,6 +1,6 @@
 const Footer = () => {
   const year = new Date().getFullYear();
-  return <footer className="google-font">{`© Masterpro.ws Project ${year}`}</footer>;
+  return <footer className="font-face-ps">{`© Masterpro.ws Project ${year}`}</footer>;
 };
 
 export default Footer; 
