@@ -18,3 +18,8 @@ src: local('PoorStory'),
  url('./fonts/PoorStory-Regular.ttf') format('truetype');
 font-weight: cursive;
 }
+
+a:-webkit-any-link {
+    color: black;
+    text-decoration: none;
+}

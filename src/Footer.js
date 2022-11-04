@@ -1,6 +1,16 @@
 const Footer = () => {
   const year = new Date().getFullYear();
-  return <footer className="font-face-ps">{`© Masterpro.ws Project ${year}`}</footer>;
+  return (
+    <footer className="font-face-ps">
+      <a
+        href="https://github.com/cmirnow/react-lightgallery"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        {`© Masterpro.ws Project ${year}`}
+      </a>
+    </footer>
+  );
 };
 
-export default Footer; 
+export default Footer;
