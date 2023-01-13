@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-lightgallery/static/css/main.0c05d07e.css",
-    "main.js": "/react-lightgallery/static/js/main.e2b1c1ef.js",
+    "main.js": "/react-lightgallery/static/js/main.b08e9213.js",
     "static/js/787.05e9aa35.chunk.js": "/react-lightgallery/static/js/787.05e9aa35.chunk.js",
     "static/media/PoorStory-Regular.ttf": "/react-lightgallery/static/media/PoorStory-Regular.bec8ef9a74351552c94e.ttf",
     "static/media/11112020_5.jpg": "/react-lightgallery/static/media/11112020_5.c75f0da3e248bb7bd995.jpg",
@@ -40,11 +40,11 @@
     "static/media/lg.woff2?io9a6k": "/react-lightgallery/static/media/lg.64b800aa30714fd916dc.woff2",
     "index.html": "/react-lightgallery/index.html",
     "main.0c05d07e.css.map": "/react-lightgallery/static/css/main.0c05d07e.css.map",
-    "main.e2b1c1ef.js.map": "/react-lightgallery/static/js/main.e2b1c1ef.js.map",
+    "main.b08e9213.js.map": "/react-lightgallery/static/js/main.b08e9213.js.map",
     "787.05e9aa35.chunk.js.map": "/react-lightgallery/static/js/787.05e9aa35.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0c05d07e.css",
-    "static/js/main.e2b1c1ef.js"
+    "static/js/main.b08e9213.js"
   ]
 }
