@@ -1,13 +1,17 @@
 const Footer = () => {
-  const year = new Date().getFullYear();
+  const startYear = 2022;
+  const currentYear = new Date().getFullYear();
   return (
     <footer className="font-face-ps">
-      <a
-        href="https://github.com/cmirnow/react-lightgallery"
+    <a
+        alt="Masterpro Project"
+        title="Masterpro Project"
+        href="https://masterpro.ws/react-componentwillmount-componentdidmount"
         target="_blank"
-        rel="noopener noreferrer"
+        rel="noreferrer"
       >
-        {`© Masterpro.ws Project ${year}`}
+        Masterpro.ws{" "}
+        {startYear === currentYear ? startYear : startYear + "-" + currentYear}
       </a>
     </footer>
   );
