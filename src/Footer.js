@@ -3,7 +3,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
     <footer className="font-face-ps">
-    <a
+      <a
         alt="Masterpro Project"
         title="Masterpro Project"
         href="https://masterpro.ws/react-componentwillmount-componentdidmount"
