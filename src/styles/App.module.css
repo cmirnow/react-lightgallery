@@ -1,0 +1,30 @@
+.gallery {
+  min-height: 100vh;
+}
+
+.title {
+  font-family: "PoorStory";
+  color: #003366;
+}
+
+.gallery-item {
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.thumb {
+  width: 150px;
+  height: auto;
+  padding: 10px;
+  -webkit-box-shadow: 4px 4px 12px 0px rgba(34, 60, 80, 0.5);
+  -moz-box-shadow: 4px 4px 12px 0px rgba(34, 60, 80, 0.5);
+  box-shadow: 4px 4px 12px 0px rgba(34, 60, 80, 0.5);
+}
+
+.loading {
+  font-family: "PoorStory";
+  color: #003366;
+  font-size: 24px;
+  text-align: center;
+  padding: 20px;
+}

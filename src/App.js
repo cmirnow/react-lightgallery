@@ -1,13 +1,13 @@
 import GalleryComponent from "./components/GalleryComponent";
-import Background from "./Background"
-import Footer from "./Footer";
-import "./App.css";
+import Background from "./components/Background";
+import Footer from "./components/Footer";
+import styles from "./styles/App.module.css";
 
 function App() {
   return (
-    <div className="Gallery">
-      <h1 className="font-face-ps">Children's Summer Camp 'Aurora'</h1>
-        <GalleryComponent />
+    <div className={styles.gallery}>
+      <h1 className={styles.title}>Children's Summer Camp 'Aurora'</h1>
+      <GalleryComponent />
       <Footer />
       <Background />
     </div>
