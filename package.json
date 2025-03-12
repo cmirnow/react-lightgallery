@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://cmirnow.github.io/react-lightgallery",
   "dependencies": {
-    "lightgallery": "^2.7.2",
+    "lightgallery": "^2.8.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
@@ -13,9 +13,9 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -37,6 +37,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1"
+    "gh-pages": "^6.3.0",
+    "react-app-rewired": "^2.2.1"
   }
 }
