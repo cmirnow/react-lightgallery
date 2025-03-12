@@ -1,10 +1,11 @@
 import { memo } from "react";
+import styles from "../styles/Footer.module.css";
 
 const Footer = () => {
   const startYear = 2022;
   const currentYear = new Date().getFullYear();
   return (
-    <footer className="font-face-ps">
+    <footer className={styles.footer}>
       <a
         alt="Masterpro Project"
         title="Masterpro Project"

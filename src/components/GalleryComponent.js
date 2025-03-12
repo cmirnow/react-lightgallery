@@ -25,6 +25,10 @@ const GalleryComponent = () => {
     }
   }, []);
 
+  const handleImageLoad = (e) => {
+    e.target.classList.add(styles.loaded);
+  };
+
   if (listOfImages.length === 0) {
     return <div className={styles.loading}>Загрузка изображений...</div>;
   }
@@ -42,6 +46,7 @@ const GalleryComponent = () => {
             className={styles.thumb}
             alt="Children's Summer Camp 'Aurora'"
             loading="lazy"
+            onLoad={handleImageLoad} // Плавное появление после загрузки
           />
         </a>
       ))}

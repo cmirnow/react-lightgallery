@@ -19,12 +19,18 @@
   -webkit-box-shadow: 4px 4px 12px 0px rgba(34, 60, 80, 0.5);
   -moz-box-shadow: 4px 4px 12px 0px rgba(34, 60, 80, 0.5);
   box-shadow: 4px 4px 12px 0px rgba(34, 60, 80, 0.5);
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+.thumb.loaded {
+  opacity: 1;
 }
 
 .loading {
   font-family: "PoorStory";
   color: #003366;
-  font-size: 24px;
+  font-size: 18px;
   text-align: center;
   padding: 20px;
 }
