@@ -1,5 +1,12 @@
 .gallery {
   min-height: 100vh;
+  padding-bottom: 20px;
+}
+
+@media (max-height: 800px) {
+  .gallery {
+    padding-bottom: 40px;
+  }
 }
 
 .title {
